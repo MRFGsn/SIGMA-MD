@@ -59,7 +59,7 @@ global.maher_api = process.env.MAHER_API || `https://api.maher-zubair.tech/` ; /
 
 //===========================[COMPULSORY VARIABLES]================================
 global.owner = process.env.OWNER_NUMBER  || '94765476552' ;  // ADD YOUR NUMBER WITHOUT +
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Snyder:Snyder@cluster0.vqyuk9h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
+global.mongodb = process.env.MONGODB_URI || "mongodb://mongo:OAQgHHmrPuRiYfGApbbHpHxlmWsWLuWR@viaduct.proxy.rlwy.net:44338" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
 global.timezone  = process.env.TIME_ZONE || 'Asia/Colombo' // ADD CORRECT TIMEZONE OR LEAVE IT SAME , OTHERWISE YOU GET ERROS
 //=================================================================================
 
@@ -75,10 +75,10 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/dc6d30e
 module.exports = {
 
   //==============================[COMPULSORY]=====================================
-  sessionName: process.env.SESSION_ID || '16_06_2024_SIGMA_MD_5838bCvH_MAHER_ZUBAIR',              // PUT YOUR SESSION ID
+  sessionName: process.env.SESSION_ID || '09_07_2024_SIGMA_MD_LJWAN0Re_MAHER_ZUBAIR',              // PUT YOUR SESSION ID
   botname: process.env.BOT_NAME       || 'MRFG',         // ADD YOUR BOT NAME
   ownername:  process.env.OWNER_NAME  || `Seth Snyder`, // ADD YOUR NAME
-  HANDLERS: process.env.PREFIX        || ',',              // ADD YOUR BOT PREFIX
+  HANDLERS: process.env.PREFIX        || '.',              // ADD YOUR BOT PREFIX
   WORKTYPE: process.env.WORKTYPE      || 'public',      // IF PRIVATE ONLY YOU CAN USE YOUR BOT, IF PUBLIC EVERYONE CAN USE YOUR BOT
   //================================================================================
 
